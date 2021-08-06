@@ -26,7 +26,7 @@ jobs:
 
       - name: 'Automated Version Bump'
         id: version-bump
-        uses: 'docker://phips28/gh-action-bump-version@master'
+        uses: 'docker://phips28/gh-action-bump-version'
         with:
           tag-prefix: 'v'
         env:
